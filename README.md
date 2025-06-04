@@ -1,6 +1,6 @@
 # Consensus Network Visualization Tool
 
-A detailed, interactive visualization of simulated client, account, and node interactions and behaviour in a TestBlockchain distributed network for analysis and debugging.
+A simulation and visualization platform for experimenting with consensus network protocols and modeling client/node interactions in distributed systems. Supports configurable client and node behavior (including malicious actors), blockchain structure modeling, and state visualization for real-time consensus tracking. Features a fully interactive UI to explore account, node, and client dynamics under varied network configurations.
 
 ![cnsim_github](https://github.com/user-attachments/assets/0b315c89-bd58-48d5-9f06-d32ccf81843d)
 
