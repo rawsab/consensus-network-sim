@@ -1,0 +1,721 @@
+SimTime	Sender	Receiver	Type	Details
+50101	node-1	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@31610302
+50101	node-1	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@31610302
+50101	node-1	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@31610302
+50101	node-1	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@31610302
+50101	node-1	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@31610302
+50201	node-2	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@71318ec4
+50215	node-2	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@71318ec4
+50215	node-2	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@71318ec4
+50215	node-2	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@71318ec4
+50215	node-2	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@71318ec4
+50301	node-3	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@21213b92
+50330	node-3	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@21213b92
+50330	node-3	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@21213b92
+50330	node-3	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@21213b92
+50330	node-3	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@21213b92
+50330	node-4	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@a67c67e
+50330	node-5	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3327bd23
+50373	node-4	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@a67c67e
+50373	node-5	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3327bd23
+50373	node-5	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3327bd23
+50373	node-5	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3327bd23
+50373	node-5	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3327bd23
+50373	node-4	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@a67c67e
+50373	node-4	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@a67c67e
+50373	node-4	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@a67c67e
+100473	node-1	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100473	node-1	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100473	node-1	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100473	node-1	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100473	node-1	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100573	node-2	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100587	node-2	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100587	node-2	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100587	node-2	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100587	node-2	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100673	node-3	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100702	node-3	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100702	node-3	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100702	node-3	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100702	node-3	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100702	node-4	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100702	node-5	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100745	node-4	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100745	node-5	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100745	node-5	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100745	node-5	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100745	node-5	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100745	node-4	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100745	node-4	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+100745	node-4	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@31610302, cmg.cnsim.testblockchain.node.Vote@71318ec4, cmg.cnsim.testblockchain.node.Vote@21213b92, cmg.cnsim.testblockchain.node.Vote@a67c67e, cmg.cnsim.testblockchain.node.Vote@3327bd23]
+150845	node-1	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4fe3c938
+150845	node-1	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4fe3c938
+150845	node-1	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4fe3c938
+150845	node-1	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4fe3c938
+150845	node-1	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4fe3c938
+150945	node-2	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@5383967b
+150959	node-2	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@5383967b
+150959	node-2	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@5383967b
+150959	node-2	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@5383967b
+150959	node-2	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@5383967b
+151045	node-3	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2ac273d3
+151074	node-3	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2ac273d3
+151074	node-3	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2ac273d3
+151074	node-3	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2ac273d3
+151074	node-3	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2ac273d3
+151074	node-4	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@71423665
+151074	node-5	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@20398b7c
+151117	node-4	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@71423665
+151117	node-5	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@20398b7c
+151117	node-4	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@71423665
+151117	node-5	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@20398b7c
+151117	node-5	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@20398b7c
+151117	node-5	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@20398b7c
+151117	node-4	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@71423665
+151117	node-4	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@71423665
+251317	node-1	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@520a3426
+251317	node-1	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@520a3426
+251317	node-1	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@520a3426
+251317	node-1	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@520a3426
+251317	node-1	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@520a3426
+251517	node-2	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@18eed359
+251531	node-2	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@18eed359
+251531	node-2	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@18eed359
+251531	node-2	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@18eed359
+251531	node-2	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@18eed359
+251717	node-3	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3e9b1010
+251746	node-3	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3e9b1010
+251746	node-3	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3e9b1010
+251746	node-3	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3e9b1010
+251746	node-3	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3e9b1010
+251746	node-4	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6c3708b3
+251746	node-5	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6f1fba17
+251789	node-4	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6c3708b3
+251789	node-5	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6f1fba17
+251789	node-5	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6f1fba17
+251789	node-5	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6f1fba17
+251789	node-5	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6f1fba17
+251789	node-4	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6c3708b3
+251789	node-4	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6c3708b3
+251789	node-4	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6c3708b3
+301889	node-1	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+301889	node-1	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+301889	node-1	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+301889	node-1	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+301889	node-1	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+301989	node-2	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302003	node-2	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302003	node-2	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302003	node-2	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302003	node-2	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302089	node-3	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302118	node-3	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302118	node-3	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302118	node-3	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302118	node-3	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302118	node-4	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302118	node-5	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302161	node-4	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302161	node-5	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302161	node-4	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302161	node-5	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302161	node-5	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302161	node-5	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302161	node-4	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+302161	node-4	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@520a3426, cmg.cnsim.testblockchain.node.Vote@18eed359, cmg.cnsim.testblockchain.node.Vote@3e9b1010, cmg.cnsim.testblockchain.node.Vote@6c3708b3, cmg.cnsim.testblockchain.node.Vote@6f1fba17]
+352261	node-1	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@185d8b6
+352261	node-1	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@185d8b6
+352261	node-1	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@185d8b6
+352261	node-1	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@185d8b6
+352261	node-1	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@185d8b6
+352361	node-2	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@67784306
+352375	node-2	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@67784306
+352375	node-2	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@67784306
+352375	node-2	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@67784306
+352375	node-2	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@67784306
+352461	node-3	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@335eadca
+352490	node-3	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@335eadca
+352490	node-3	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@335eadca
+352490	node-3	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@335eadca
+352490	node-3	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@335eadca
+352490	node-4	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@210366b4
+352490	node-5	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@eec5a4a
+352533	node-4	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@210366b4
+352533	node-5	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@eec5a4a
+352533	node-4	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@210366b4
+352533	node-5	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@eec5a4a
+352533	node-5	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@eec5a4a
+352533	node-5	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@eec5a4a
+352533	node-4	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@210366b4
+352533	node-4	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@210366b4
+452733	node-1	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@2b2948e2
+452733	node-1	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@2b2948e2
+452733	node-1	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@2b2948e2
+452733	node-1	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@2b2948e2
+452733	node-1	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@2b2948e2
+452933	node-2	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6ddf90b0
+452947	node-2	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6ddf90b0
+452947	node-2	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6ddf90b0
+452947	node-2	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6ddf90b0
+452947	node-2	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6ddf90b0
+453133	node-3	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@57536d79
+453162	node-3	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@57536d79
+453162	node-3	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@57536d79
+453162	node-3	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@57536d79
+453162	node-3	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@57536d79
+453162	node-4	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3b0143d3
+453162	node-5	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5a8e6209
+453205	node-4	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3b0143d3
+453205	node-5	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5a8e6209
+453205	node-5	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5a8e6209
+453205	node-5	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5a8e6209
+453205	node-5	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5a8e6209
+453205	node-4	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3b0143d3
+453205	node-4	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3b0143d3
+453205	node-4	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3b0143d3
+503305	node-1	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503305	node-1	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503305	node-1	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503305	node-1	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503305	node-1	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503405	node-2	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503419	node-2	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503419	node-2	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503419	node-2	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503419	node-2	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503505	node-3	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503534	node-3	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503534	node-3	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503534	node-3	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503534	node-3	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503534	node-4	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503534	node-5	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503577	node-4	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503577	node-5	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503577	node-4	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503577	node-5	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503577	node-5	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503577	node-5	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503577	node-4	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+503577	node-4	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@2b2948e2, cmg.cnsim.testblockchain.node.Vote@6ddf90b0, cmg.cnsim.testblockchain.node.Vote@57536d79, cmg.cnsim.testblockchain.node.Vote@3b0143d3, cmg.cnsim.testblockchain.node.Vote@5a8e6209]
+553677	node-1	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4b4523f8
+553677	node-1	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4b4523f8
+553677	node-1	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4b4523f8
+553677	node-1	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4b4523f8
+553677	node-1	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4b4523f8
+553777	node-2	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@731a74c
+553791	node-2	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@731a74c
+553791	node-2	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@731a74c
+553791	node-2	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@731a74c
+553791	node-2	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@731a74c
+553877	node-3	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@369f73a2
+553906	node-3	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@369f73a2
+553906	node-3	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@369f73a2
+553906	node-3	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@369f73a2
+553906	node-3	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@369f73a2
+553906	node-4	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@1f28c152
+553906	node-5	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7d907bac
+553949	node-4	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@1f28c152
+553949	node-5	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7d907bac
+553949	node-4	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@1f28c152
+553949	node-5	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7d907bac
+553949	node-5	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7d907bac
+553949	node-5	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7d907bac
+553949	node-4	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@1f28c152
+553949	node-4	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@1f28c152
+654149	node-1	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@7791a895
+654149	node-1	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@7791a895
+654149	node-1	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@7791a895
+654149	node-1	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@7791a895
+654149	node-1	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@7791a895
+654349	node-2	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3a5ed7a6
+654363	node-2	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3a5ed7a6
+654363	node-2	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3a5ed7a6
+654363	node-2	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3a5ed7a6
+654363	node-2	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3a5ed7a6
+654549	node-3	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6325a3ee
+654578	node-3	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6325a3ee
+654578	node-3	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6325a3ee
+654578	node-3	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6325a3ee
+654578	node-3	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6325a3ee
+654578	node-4	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@1d16f93d
+654578	node-5	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@67b92f0a
+654621	node-4	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@1d16f93d
+654621	node-5	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@67b92f0a
+654621	node-5	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@67b92f0a
+654621	node-5	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@67b92f0a
+654621	node-5	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@67b92f0a
+654621	node-4	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@1d16f93d
+654621	node-4	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@1d16f93d
+654621	node-4	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@1d16f93d
+704721	node-1	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704721	node-1	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704721	node-1	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704721	node-1	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704721	node-1	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704821	node-2	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704835	node-2	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704835	node-2	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704835	node-2	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704835	node-2	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704921	node-3	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704950	node-3	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704950	node-3	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704950	node-3	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704950	node-3	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704950	node-4	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704950	node-5	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704993	node-4	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704993	node-5	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704993	node-4	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704993	node-5	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704993	node-5	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704993	node-5	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704993	node-4	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+704993	node-4	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@7791a895, cmg.cnsim.testblockchain.node.Vote@3a5ed7a6, cmg.cnsim.testblockchain.node.Vote@6325a3ee, cmg.cnsim.testblockchain.node.Vote@1d16f93d, cmg.cnsim.testblockchain.node.Vote@67b92f0a]
+755093	node-1	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2b9627bc
+755093	node-1	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2b9627bc
+755093	node-1	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2b9627bc
+755093	node-1	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2b9627bc
+755093	node-1	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2b9627bc
+755193	node-2	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@65e2dbf3
+755207	node-2	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@65e2dbf3
+755207	node-2	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@65e2dbf3
+755207	node-2	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@65e2dbf3
+755207	node-2	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@65e2dbf3
+755293	node-3	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4f970963
+755322	node-3	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4f970963
+755322	node-3	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4f970963
+755322	node-3	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4f970963
+755322	node-3	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4f970963
+755322	node-4	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@61f8bee4
+755322	node-5	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7b49cea0
+755365	node-4	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@61f8bee4
+755365	node-5	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7b49cea0
+755365	node-4	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@61f8bee4
+755365	node-5	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7b49cea0
+755365	node-5	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7b49cea0
+755365	node-5	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7b49cea0
+755365	node-4	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@61f8bee4
+755365	node-4	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@61f8bee4
+855565	node-1	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@887af79
+855565	node-1	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@887af79
+855565	node-1	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@887af79
+855565	node-1	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@887af79
+855565	node-1	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@887af79
+855765	node-2	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@7fac631b
+855779	node-2	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@7fac631b
+855779	node-2	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@7fac631b
+855779	node-2	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@7fac631b
+855779	node-2	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@7fac631b
+855965	node-3	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5b87ed94
+855994	node-3	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5b87ed94
+855994	node-3	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5b87ed94
+855994	node-3	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5b87ed94
+855994	node-3	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5b87ed94
+855994	node-4	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6e0e048a
+856037	node-4	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6e0e048a
+856037	node-4	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6e0e048a
+856037	node-4	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6e0e048a
+856037	node-4	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6e0e048a
+906137	node-1	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906137	node-1	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906137	node-1	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906137	node-1	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906137	node-1	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906237	node-2	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906251	node-2	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906251	node-2	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906251	node-2	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906251	node-2	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906337	node-3	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906366	node-3	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906366	node-3	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906366	node-3	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906366	node-3	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906366	node-4	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906409	node-4	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906409	node-4	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906409	node-4	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+906409	node-4	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@887af79, cmg.cnsim.testblockchain.node.Vote@7fac631b, cmg.cnsim.testblockchain.node.Vote@5b87ed94, cmg.cnsim.testblockchain.node.Vote@6e0e048a]
+956509	node-1	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@5bc79255
+956509	node-1	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@5bc79255
+956509	node-1	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@5bc79255
+956509	node-1	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@5bc79255
+956509	node-1	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@5bc79255
+956609	node-2	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@47ef968d
+956623	node-2	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@47ef968d
+956623	node-2	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@47ef968d
+956623	node-2	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@47ef968d
+956623	node-2	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@47ef968d
+956709	node-3	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@23e028a9
+956738	node-3	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@23e028a9
+956738	node-3	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@23e028a9
+956738	node-3	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@23e028a9
+956738	node-3	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@23e028a9
+956738	node-4	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3dd4520b
+956781	node-4	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3dd4520b
+956781	node-4	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3dd4520b
+956781	node-4	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3dd4520b
+956781	node-4	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3dd4520b
+1056981	node-1	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5ae63ade
+1056981	node-1	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5ae63ade
+1056981	node-1	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5ae63ade
+1056981	node-1	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5ae63ade
+1056981	node-1	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5ae63ade
+1057181	node-2	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@610694f1
+1057195	node-2	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@610694f1
+1057195	node-2	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@610694f1
+1057195	node-2	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@610694f1
+1057195	node-2	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@610694f1
+1057381	node-3	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@43814d18
+1057410	node-3	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@43814d18
+1057410	node-3	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@43814d18
+1057410	node-3	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@43814d18
+1057410	node-3	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@43814d18
+1057410	node-4	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5c5a1b69
+1057453	node-4	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5c5a1b69
+1057453	node-4	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5c5a1b69
+1057453	node-4	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5c5a1b69
+1057453	node-4	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5c5a1b69
+1107553	node-1	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107553	node-1	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107553	node-1	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107553	node-1	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107553	node-1	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107653	node-2	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107667	node-2	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107667	node-2	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107667	node-2	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107667	node-2	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107753	node-3	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107782	node-3	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107782	node-3	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107782	node-3	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107782	node-3	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107782	node-4	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107825	node-4	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107825	node-4	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107825	node-4	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1107825	node-4	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5ae63ade, cmg.cnsim.testblockchain.node.Vote@610694f1, cmg.cnsim.testblockchain.node.Vote@43814d18, cmg.cnsim.testblockchain.node.Vote@5c5a1b69]
+1157925	node-1	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3701eaf6
+1157925	node-1	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3701eaf6
+1157925	node-1	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3701eaf6
+1157925	node-1	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3701eaf6
+1157925	node-1	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3701eaf6
+1158025	node-2	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@627551fb
+1158039	node-2	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@627551fb
+1158039	node-2	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@627551fb
+1158039	node-2	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@627551fb
+1158039	node-2	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@627551fb
+1158125	node-3	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2b552920
+1158154	node-3	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2b552920
+1158154	node-3	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2b552920
+1158154	node-3	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2b552920
+1158154	node-3	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2b552920
+1158154	node-4	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2758fe70
+1158197	node-4	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2758fe70
+1158197	node-4	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2758fe70
+1158197	node-4	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2758fe70
+1158197	node-4	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2758fe70
+1258397	node-1	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@1f36e637
+1258397	node-1	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@1f36e637
+1258397	node-1	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@1f36e637
+1258397	node-1	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@1f36e637
+1258397	node-1	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@1f36e637
+1258597	node-2	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@578486a3
+1258611	node-2	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@578486a3
+1258611	node-2	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@578486a3
+1258611	node-2	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@578486a3
+1258611	node-2	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@578486a3
+1258797	node-3	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@551aa95a
+1258826	node-3	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@551aa95a
+1258826	node-3	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@551aa95a
+1258826	node-3	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@551aa95a
+1258826	node-3	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@551aa95a
+1258826	node-4	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@35d176f7
+1258869	node-4	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@35d176f7
+1258869	node-4	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@35d176f7
+1258869	node-4	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@35d176f7
+1258869	node-4	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@35d176f7
+1308969	node-1	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1308969	node-1	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1308969	node-1	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1308969	node-1	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1308969	node-1	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1309069	node-2	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1309083	node-2	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1309083	node-2	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1309083	node-2	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1309083	node-2	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1309169	node-3	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1309198	node-3	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1309198	node-3	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1309198	node-3	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1309198	node-3	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1309198	node-4	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1309241	node-4	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1309241	node-4	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1309241	node-4	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1309241	node-4	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@1f36e637, cmg.cnsim.testblockchain.node.Vote@578486a3, cmg.cnsim.testblockchain.node.Vote@551aa95a, cmg.cnsim.testblockchain.node.Vote@35d176f7]
+1359341	node-1	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@1dfe2924
+1359341	node-1	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@1dfe2924
+1359341	node-1	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@1dfe2924
+1359341	node-1	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@1dfe2924
+1359341	node-1	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@1dfe2924
+1359441	node-2	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6ebc05a6
+1359455	node-2	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6ebc05a6
+1359455	node-2	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6ebc05a6
+1359455	node-2	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6ebc05a6
+1359455	node-2	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6ebc05a6
+1359541	node-3	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6e6c3152
+1359570	node-3	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6e6c3152
+1359570	node-3	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6e6c3152
+1359570	node-3	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6e6c3152
+1359570	node-3	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6e6c3152
+1359570	node-4	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@50b494a6
+1359613	node-4	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@50b494a6
+1359613	node-4	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@50b494a6
+1359613	node-4	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@50b494a6
+1359613	node-4	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@50b494a6
+1459813	node-1	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3cef309d
+1459813	node-1	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3cef309d
+1459813	node-1	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3cef309d
+1459813	node-1	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3cef309d
+1459813	node-1	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3cef309d
+1460013	node-2	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@32709393
+1460027	node-2	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@32709393
+1460027	node-2	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@32709393
+1460027	node-2	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@32709393
+1460027	node-2	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@32709393
+1460213	node-3	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3d99d22e
+1460242	node-3	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3d99d22e
+1460242	node-3	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3d99d22e
+1460242	node-3	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3d99d22e
+1460242	node-3	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3d99d22e
+1460242	node-4	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@49fc609f
+1460285	node-4	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@49fc609f
+1460285	node-4	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@49fc609f
+1460285	node-4	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@49fc609f
+1460285	node-4	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@49fc609f
+1510385	node-1	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510385	node-1	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510385	node-1	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510385	node-1	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510385	node-1	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510485	node-2	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510499	node-2	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510499	node-2	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510499	node-2	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510499	node-2	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510585	node-3	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510614	node-3	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510614	node-3	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510614	node-3	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510614	node-3	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510614	node-4	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510657	node-4	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510657	node-4	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510657	node-4	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1510657	node-4	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@3cef309d, cmg.cnsim.testblockchain.node.Vote@32709393, cmg.cnsim.testblockchain.node.Vote@3d99d22e, cmg.cnsim.testblockchain.node.Vote@49fc609f]
+1560757	node-1	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@cd2dae5
+1560757	node-1	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@cd2dae5
+1560757	node-1	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@cd2dae5
+1560757	node-1	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@cd2dae5
+1560757	node-1	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@cd2dae5
+1560857	node-2	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3a883ce7
+1560871	node-2	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3a883ce7
+1560871	node-2	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3a883ce7
+1560871	node-2	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3a883ce7
+1560871	node-2	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3a883ce7
+1560957	node-3	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4973813a
+1560986	node-3	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4973813a
+1560986	node-3	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4973813a
+1560986	node-3	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4973813a
+1560986	node-3	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4973813a
+1560986	node-4	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6321e813
+1561029	node-4	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6321e813
+1561029	node-4	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6321e813
+1561029	node-4	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6321e813
+1561029	node-4	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6321e813
+1661229	node-1	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@79be0360
+1661229	node-1	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@79be0360
+1661229	node-1	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@79be0360
+1661229	node-1	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@79be0360
+1661229	node-1	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@79be0360
+1661429	node-2	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@22a67b4
+1661443	node-2	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@22a67b4
+1661443	node-2	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@22a67b4
+1661443	node-2	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@22a67b4
+1661443	node-2	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@22a67b4
+1661629	node-3	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@57855c9a
+1661658	node-3	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@57855c9a
+1661658	node-3	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@57855c9a
+1661658	node-3	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@57855c9a
+1661658	node-3	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@57855c9a
+1661658	node-4	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3b084709
+1661701	node-4	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3b084709
+1661701	node-4	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3b084709
+1661701	node-4	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3b084709
+1661701	node-4	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@3b084709
+1711801	node-1	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1711801	node-1	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1711801	node-1	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1711801	node-1	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1711801	node-1	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1711901	node-2	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1711915	node-2	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1711915	node-2	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1711915	node-2	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1711915	node-2	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1712001	node-3	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1712030	node-3	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1712030	node-3	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1712030	node-3	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1712030	node-3	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1712030	node-4	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1712073	node-4	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1712073	node-4	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1712073	node-4	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1712073	node-4	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@79be0360, cmg.cnsim.testblockchain.node.Vote@22a67b4, cmg.cnsim.testblockchain.node.Vote@57855c9a, cmg.cnsim.testblockchain.node.Vote@3b084709]
+1762173	node-1	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3224f60b
+1762173	node-1	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3224f60b
+1762173	node-1	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3224f60b
+1762173	node-1	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3224f60b
+1762173	node-1	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@3224f60b
+1762273	node-2	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@63e2203c
+1762287	node-2	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@63e2203c
+1762287	node-2	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@63e2203c
+1762287	node-2	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@63e2203c
+1762287	node-2	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@63e2203c
+1762373	node-3	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@1efed156
+1762402	node-3	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@1efed156
+1762402	node-3	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@1efed156
+1762402	node-3	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@1efed156
+1762402	node-3	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@1efed156
+1762402	node-4	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6737fd8f
+1762445	node-4	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6737fd8f
+1762445	node-4	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6737fd8f
+1762445	node-4	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6737fd8f
+1762445	node-4	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@6737fd8f
+1862645	node-1	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@72b6cbcc
+1862645	node-1	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@72b6cbcc
+1862645	node-1	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@72b6cbcc
+1862645	node-1	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@72b6cbcc
+1862645	node-1	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@72b6cbcc
+1862845	node-2	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@a7e666
+1862859	node-2	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@a7e666
+1862859	node-2	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@a7e666
+1862859	node-2	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@a7e666
+1862859	node-2	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@a7e666
+1863045	node-3	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@68bbe345
+1863074	node-3	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@68bbe345
+1863074	node-3	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@68bbe345
+1863074	node-3	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@68bbe345
+1863074	node-3	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@68bbe345
+1863074	node-4	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@30b8a058
+1863117	node-4	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@30b8a058
+1863117	node-4	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@30b8a058
+1863117	node-4	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@30b8a058
+1863117	node-4	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@30b8a058
+1913217	node-1	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913217	node-1	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913217	node-1	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913217	node-1	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913217	node-1	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913317	node-2	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913331	node-2	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913331	node-2	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913331	node-2	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913331	node-2	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913417	node-3	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913446	node-3	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913446	node-3	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913446	node-3	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913446	node-3	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913446	node-4	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913489	node-4	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913489	node-4	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913489	node-4	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1913489	node-4	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@72b6cbcc, cmg.cnsim.testblockchain.node.Vote@a7e666, cmg.cnsim.testblockchain.node.Vote@68bbe345, cmg.cnsim.testblockchain.node.Vote@30b8a058]
+1963589	node-1	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7494e528
+1963589	node-1	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7494e528
+1963589	node-1	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7494e528
+1963589	node-1	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7494e528
+1963589	node-1	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7494e528
+1963689	node-2	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4bbfb90a
+1963703	node-2	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4bbfb90a
+1963703	node-2	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4bbfb90a
+1963703	node-2	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4bbfb90a
+1963703	node-2	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4bbfb90a
+1963789	node-3	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7c29daf3
+1963818	node-3	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7c29daf3
+1963818	node-3	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7c29daf3
+1963818	node-3	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7c29daf3
+1963818	node-3	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7c29daf3
+1963818	node-4	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@9660f4e
+1963861	node-4	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@9660f4e
+1963861	node-4	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@9660f4e
+1963861	node-4	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@9660f4e
+1963861	node-4	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@9660f4e
+2064061	node-1	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5a8806ef
+2064061	node-1	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5a8806ef
+2064061	node-1	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5a8806ef
+2064061	node-1	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5a8806ef
+2064061	node-1	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5a8806ef
+2064261	node-2	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6c49835d
+2064275	node-2	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6c49835d
+2064275	node-2	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6c49835d
+2064275	node-2	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6c49835d
+2064275	node-2	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@6c49835d
+2064461	node-3	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5e853265
+2064490	node-3	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5e853265
+2064490	node-3	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5e853265
+2064490	node-3	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5e853265
+2064490	node-3	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@5e853265
+2064490	node-4	node-4	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@67205a84
+2064533	node-4	node-2	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@67205a84
+2064533	node-4	node-3	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@67205a84
+2064533	node-4	node-1	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@67205a84
+2064533	node-4	node-5	NodeReceivesVote	cmg.cnsim.testblockchain.node.Vote@67205a84
+2114633	node-1	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114633	node-1	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114633	node-1	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114633	node-1	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114633	node-1	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114733	node-2	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114747	node-2	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114747	node-2	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114747	node-2	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114747	node-2	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114833	node-3	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114862	node-3	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114862	node-3	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114862	node-3	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114862	node-3	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114862	node-4	node-4	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114905	node-4	node-1	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114905	node-4	node-2	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114905	node-4	node-5	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2114905	node-4	node-3	NodeReceivesSubmission	[cmg.cnsim.testblockchain.node.Vote@5a8806ef, cmg.cnsim.testblockchain.node.Vote@6c49835d, cmg.cnsim.testblockchain.node.Vote@5e853265, cmg.cnsim.testblockchain.node.Vote@67205a84]
+2165005	node-1	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7d0587f1
+2165005	node-1	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7d0587f1
+2165005	node-1	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7d0587f1
+2165005	node-1	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7d0587f1
+2165005	node-1	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@7d0587f1
+2165105	node-2	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@5d76b067
+2165119	node-2	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@5d76b067
+2165119	node-2	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@5d76b067
+2165119	node-2	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@5d76b067
+2165119	node-2	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@5d76b067
+2165205	node-3	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2a17b7b6
+2165234	node-3	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2a17b7b6
+2165234	node-3	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2a17b7b6
+2165234	node-3	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2a17b7b6
+2165234	node-3	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@2a17b7b6
+2165234	node-4	node-4	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4f063c0a
+2165277	node-4	node-1	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4f063c0a
+2165277	node-4	node-2	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4f063c0a
+2165277	node-4	node-3	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4f063c0a
+2165277	node-4	node-5	NodeReceivesHash	cmg.cnsim.testblockchain.node.EpochHash@4f063c0a

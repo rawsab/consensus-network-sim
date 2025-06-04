@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>layout-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0,566.666667 L0,33.3333333 C0,14.9238417 14.9238417,0 33.3333333,0 L266.666667,0 L266.666667,600 L33.3333333,600 C14.9238417,600 0,585.076158 0,566.666667 Z M600,566.666667 L600,333.333333 L333.333333,333.333333 L333.333333,600 L566.666667,600 C585.076158,600 600,585.076158 600,566.666667 Z M600,33.3333333 C600,14.9238417 585.076158,0 566.666667,0 L333.333333,0 L333.333333,266.666667 L600,266.666667 L600,33.3333333 Z" id="layout-icon" fill="#515C73" fill-rule="nonzero"></path>
+    </g>
+</svg>

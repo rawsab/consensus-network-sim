@@ -1,0 +1,17 @@
+SimTime	ClientID	Type	Content
+40028	2	ReceivesEpoch	Epoch ID: 0, Peers: [1, 2, 3, 4, 5], Fee: 100
+40028	1	ReceivesEpoch	Epoch ID: 0, Peers: [1, 2, 3, 4, 5], Fee: 100
+40056	2	ReceivesAccount	Account ID: 2, State: FINALIZED, Balance: 10000, Nonce: 0
+40056	1	ReceivesAccount	Account ID: 1, State: FINALIZED, Balance: 10000, Nonce: 0
+40084	1	ReceivesPennyJar	[]
+40084	2	ReceivesPennyJar	[]
+100029	3	ReceivesEpoch	Epoch ID: 0, Peers: [1, 2, 3, 4, 5], Fee: 100
+100029	2	ReceivesEpoch	Epoch ID: 0, Peers: [1, 2, 3, 4, 5], Fee: 100
+100029	5	ReceivesEpoch	Epoch ID: 0, Peers: [1, 2, 3, 4, 5], Fee: 100
+100029	4	ReceivesEpoch	Epoch ID: 0, Peers: [1, 2, 3, 4, 5], Fee: 100
+100029	1	ReceivesEpoch	Epoch ID: 0, Peers: [1, 2, 3, 4, 5], Fee: 100
+100057	1	ReceivesAccount	Account ID: 1, State: FINALIZED, Balance: 10000, Nonce: 0
+100057	3	ReceivesAccount	Account ID: 3, State: FINALIZED, Balance: 10000, Nonce: 0
+100057	2	ReceivesAccount	Account ID: 2, State: FINALIZED, Balance: 10000, Nonce: 0
+100057	4	ReceivesAccount	Account ID: 4, State: FINALIZED, Balance: 10000, Nonce: 0
+100057	5	ReceivesAccount	Account ID: 5, State: FINALIZED, Balance: 10000, Nonce: 0

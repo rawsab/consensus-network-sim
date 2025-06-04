@@ -1,0 +1,27 @@
+SimTime	 AccountID	 Event	 Balance	 State	 Nonce
+0	1	Account Created	10000	FINALIZED	0
+0	2	Account Created	10000	FINALIZED	0
+0	3	Account Created	10000	FINALIZED	0
+0	4	Account Created	10000	FINALIZED	0
+0	5	Account Created	10000	FINALIZED	0
+0	6	Account Created	10000	FINALIZED	0
+1040	1	SendPennyTxPrepareRequest	9880	FINALIZED	1
+1072	1	SendPennyTxAcceptRequest	9880	PRECOMMIT	1
+1168	3	RedeemPennyTxPrepareRequest	10020	FINALIZED	1
+1200	3	RedeemPennyTxAcceptRequest	10020	PRECOMMIT	1
+1344	1	SendPennyTxPrepareRequest	9760	FINALIZED	2
+1376	1	SendPennyTxAcceptRequest	9760	PRECOMMIT	2
+1408	3	RedeemPennyTxPrepareRequest	10040	FINALIZED	2
+1440	3	RedeemPennyTxAcceptRequest	10040	PRECOMMIT	2
+1552	1	SendPennyTxPrepareRequest	9640	FINALIZED	3
+1584	1	SendPennyTxAcceptRequest	9640	PRECOMMIT	3
+1648	3	RedeemPennyTxPrepareRequest	10060	FINALIZED	3
+1664	1	SendPennyTxPrepareRequest	9520	FINALIZED	4
+1680	3	RedeemPennyTxAcceptRequest	10060	PRECOMMIT	3
+1696	1	SendPennyTxAcceptRequest	9520	PRECOMMIT	4
+1792	3	RedeemPennyTxPrepareRequest	10080	FINALIZED	4
+1824	3	RedeemPennyTxAcceptRequest	10080	PRECOMMIT	4
+1872	1	SendPennyTxPrepareRequest	9400	FINALIZED	5
+1904	1	SendPennyTxAcceptRequest	9400	PRECOMMIT	5
+2032	3	RedeemPennyTxPrepareRequest	10100	FINALIZED	5
+2064	3	RedeemPennyTxAcceptRequest	10100	PRECOMMIT	5

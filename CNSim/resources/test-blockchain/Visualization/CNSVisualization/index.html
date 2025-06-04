@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CNSim (Consensus Network Simulator) Visualization</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="visualization.js" defer></script>
+    <script src="menu.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- "Configure Layout" Window -->
+      <div class="layout-window" id="layoutWindow">
+        <div class="layout-header">
+          <div class="layout-title">
+            <i class="fas fa-cog"></i>
+            <span>Configure Layout</span>
+          </div>
+          <button class="close-button" id="closeLayout">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <div class="layout-info">
+          <span id="pretext">Current Values: </span
+          ><span id="curValues">Width = 1000, Height = 800, Radius = 250</span>
+        </div>
+
+        <div class="layout-input">
+          <div>
+            <i class="fas fa-arrows-alt-h"></i>
+            <label for="widthInput">Set Network Visualization Width:</label>
+          </div>
+          <div class="layout-secondary">
+            <input
+              class="layout-textbox"
+              type="number"
+              id="width"
+              name="width"
+              placeholder="Enter Width (px)"
+              min="0"
+              step="1"
+            />
+            <button id="setWidth">Apply</button>
+          </div>
+        </div>
+
+        <div class="layout-input">
+          <div>
+            <i class="fas fa-arrows-alt-v"></i>
+            <label for="heightInput">Set Network Visualization Height:</label>
+          </div>
+          <div class="layout-secondary">
+            <input
+              class="layout-textbox"
+              type="number"
+              id="height"
+              name="height"
+              placeholder="Enter Height (px)"
+              min="0"
+              step="1"
+            />
+            <button id="setHeight">Apply</button>
+          </div>
+        </div>
+
+        <div class="layout-input">
+          <div>
+            <i class="far fa-dot-circle"></i>
+            <label for="radiusInput">Set State Visualization Radius:</label>
+          </div>
+          <div class="layout-secondary">
+            <input
+              class="layout-textbox"
+              type="number"
+              id="radius"
+              name="radius"
+              placeholder="Enter Radius (px)"
+              min="0"
+              step="1"
+            />
+            <button id="setRadius">Apply</button>
+          </div>
+        </div>
+
+        <div id="layoutButtons">
+          <button id="resetLayout">Reset Layout</button>
+          <button id="applyLayout">Apply All</button>
+          <button id="viewLayout"><i class="fas fa-eye"></i></button>
+        </div>
+      </div>
+
+      <div class="archive-window" id="archiveWindow">
+        <div class="layout-header">
+          <div class="layout-title">
+            <i class="fas fa-archive"></i>
+            <span>Archived Logs</span>
+          </div>
+          <button class="close-button" id="closeArchive">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <div class="archive-list"></div>
+      </div>
+
+      <!-- Sidebar menu -->
+      <div class="sidebar">
+        <div class="sidebar-header">
+          <div class="sidebar-icon-wrapper">
+            <h2 class="sidebar-text">Built by Rawsab Said</h2>
+          </div>
+        </div>
+
+        <hr id="header-divider" class="settings-divider" />
+
+        <div class="sidebar-bottom" id="inspection-tools">
+          <h3>INSPECTION TOOLS</h3>
+
+          <div class="bottom-button first" id="captureFrame">
+            <img
+              src="/assets/menu-icons/capture-icon.svg"
+              alt="Capture Icon"
+              class="bottom-icon"
+            />
+            <span class="bottom-text">Capture Current Frame</span>
+          </div>
+
+          <div class="bottom-button" id="showConsole">
+            <img
+              src="/assets/menu-icons/console-icon.svg"
+              alt="Console Icon"
+              class="bottom-icon"
+            />
+            <span class="bottom-text" id="showConsoleText"
+              >Show Console Logs</span
+            >
+          </div>
+
+          <div class="bottom-button" id="configLayout">
+            <img
+              src="/assets/menu-icons/layout-icon.svg"
+              alt="Layout Icon"
+              class="bottom-icon"
+            />
+            <span class="bottom-text">Configure Layout</span>
+          </div>
+        </div>
+
+        <div class="main-menu">
+          <h3>SIMULATOR SETTINGS</h3>
+
+          <!-- network setup -->
+          <div id="networkSetup" class="menu-item">
+            <div class="menu-header dropdown">
+              <img
+                src="/assets/menu-icons/arrowhead.svg"
+                alt="Arrowhead"
+                class="arrowhead-icon"
+              />
+              <img
+                src="/assets/menu-icons/sim-icon.svg"
+                alt="Simulation Icon"
+                class="menu-icon"
+              />
+              Network Configuration
+            </div>
+
+            <div class="sub-menu" style="display: none">
+              <!-- Sub-menu hidden by default -->
+              <div class="sub-menu-item first">
+                <img
+                  src="/assets/menu-icons/line_short.svg"
+                  class="line-short"
+                />
+                <div class="sub-menu-text">
+                  <img
+                    src="/assets//menu-icons/client-icon.svg"
+                    alt="Client Icon"
+                    class="sub-menu-icon"
+                  />
+                  Clients Setup
+                </div>
+              </div>
+              <div class="sub-menu-item">
+                <img
+                  src="/assets//menu-icons/line_long.svg"
+                  class="line-long"
+                />
+                <div class="sub-menu-text">
+                  <img
+                    src="/assets//menu-icons/node-icon.svg"
+                    alt="Node Icon"
+                    class="sub-menu-icon"
+                  />
+                  Nodes Setup
+                </div>
+              </div>
+              <div class="sub-menu-item last">
+                <img
+                  src="/assets//menu-icons/line_long.svg"
+                  class="line-long"
+                />
+                <div class="sub-menu-text">
+                  <img
+                    src="/assets//menu-icons/config-icon.svg"
+                    alt="Config Icon"
+                    class="sub-menu-icon"
+                  />
+                  Full Configuration
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- main driver -->
+          <div id="runDriver" class="menu-item">
+            <div class="menu-header">
+              <img
+                src="/assets/menu-icons/driver-icon.svg"
+                alt="Driver Icon"
+                class="menu-icon"
+              />
+              Run CNSim Driver
+            </div>
+          </div>
+
+          <!-- generate frames -->
+          <div id="generateFrames" class="menu-item">
+            <div class="menu-header">
+              <img
+                src="/assets/menu-icons/frames-icon.svg"
+                alt="Generate Frames Icon"
+                class="menu-icon"
+              />
+              Generate Frames
+            </div>
+          </div>
+
+          <!-- refresh visualization -->
+          <div id="refreshVisualization" class="menu-item">
+            <div class="menu-header">
+              <img
+                src="/assets/menu-icons/refresh-icon.svg"
+                alt="Refresh Icon"
+                class="menu-icon"
+              />
+              Refresh Visualization
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-bottom">
+          <hr class="settings-divider" />
+
+          <div class="bottom-button" id="settings">
+            <img
+              src="/assets/menu-icons/settings-icon.svg"
+              alt="Settings Icon"
+              class="bottom-icon"
+            />
+            <span class="bottom-text">Settings</span>
+          </div>
+
+          <div class="bottom-button" id="archive">
+            <img
+              src="/assets/menu-icons/archive-icon.svg"
+              alt="Archive Icon"
+              class="bottom-icon"
+            />
+            <span class="bottom-text">Archive</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- VISUALIZATION -->
+      <div class="content-area">
+        <div class="title-container">
+          <div class="title-icon-wrapper">
+            <div class="icon-wrapper">
+              <img src="/assets/network-icon.svg" alt="Network Icon" />
+            </div>
+            <h1 class="title-text">
+              <span class="title-bold">CNSim</span> Consensus Network Simulator
+            </h1>
+          </div>
+        </div>
+
+        <div id="visualizationSettings" class="visualization-settings">
+          <!-- toggle message arrows -->
+          <div class="visualization-toggle-buttons" id="toggleButtonWrapper">
+            <button id="toggleMessages">
+              <i id="toggleMessagesIcon"></i>
+              <span id="toggleMessagesText">Toggle Messages</span>
+            </button>
+          </div>
+
+          <!-- show/hide state visualization -->
+          <div class="visualization-toggle-buttons">
+            <button id="toggleStateVisualization">
+              <i id="toggleStateIcon" class="fas fa-eye"></i>
+              <span id="toggleStateText">Show State Visualization</span>
+            </button>
+          </div>
+
+          <!-- reset zoom -->
+          <div class="visualization-toggle-buttons">
+            <button id="resetZoom">
+              <i id="resetZoomIcon" class="fas fa-compress"></i>
+              <span id="resetZoomText">Reset Zoom</span>
+            </button>
+          </div>
+
+          <!-- simtime input -->
+          <div class="simtime-input">
+            <i class="far fa-clock"></i>
+            <label for="simtimeInput">SimTime:</label>
+            <input
+              type="number"
+              id="simTime"
+              name="simTime"
+              placeholder="Enter SimTime"
+              min="0"
+              step="1"
+            />
+            <button id="goToSimtime">Go</button>
+          </div>
+        </div>
+
+        <div class="visualizer-wrapper">
+          <div id="main" class="visualizer-box">
+            <div class="visualization-header">
+              <div class="vertical-line"></div>
+              <span class="header-text">Network Visualization</span>
+            </div>
+
+            <svg id="main-visualization" width="1200" height="600">
+              <g id="visualization-group"></g>
+            </svg>
+
+            <div id="simtimeDisplay" class="simtime-display">SimTime: 0</div>
+
+            <div class="hint-text">Click on clients to show/hide accounts.</div>
+          </div>
+
+          <!-- state visualization -->
+          <div id="state" class="visualizer-box">
+            <div class="visualization-header">
+              <div class="vertical-line"></div>
+              <span class="header-text">State Visualization</span>
+            </div>
+
+            <svg id="state-visualization" width="1200" height="600">
+              <g id="state-visualization-group"></g>
+            </svg>
+
+            <div id="stateSimtimeDisplay" class="simtime-display">
+              SimTime: 0
+            </div>
+
+            <!-- <div class="hint-text">Click on clients to show/hide accounts.</div> -->
+          </div>
+        </div>
+
+        <div class="controls">
+          <button id="playButton"><i class="fas fa-play"></i></button>
+          <button id="pauseButton"><i class="fas fa-pause"></i></button>
+          <button id="restartButton"><i class="fas fa-sync"></i></button>
+
+          <label id="speedSliderLabel" for="speedSlider">Step Delay:</label>
+          <input
+            type="range"
+            id="speedSlider"
+            min="0"
+            max="2000"
+            value="1000"
+            step="100"
+          />
+          <span id="speedValue">1000ms</span>
+
+          <div
+            style="
+              border-left: 1px solid rgb(215, 215, 215);
+              margin-left: 10px;
+              margin-right: 10px;
+              height: 30px;
+            "
+          ></div>
+          <button id="stepBackButton">
+            <i class="fas fa-step-backward"></i>
+          </button>
+          <button id="stepForwardButton">
+            <i class="fas fa-step-forward"></i>
+          </button>
+          <div
+            style="
+              border-left: 1px solid rgb(215, 215, 215);
+              margin-left: 10px;
+              margin-right: 10px;
+              height: 30px;
+            "
+          ></div>
+          <button id="showAllAccountsButton">Show All Accounts</button>
+          <button id="hideAllAccountsButton">Hide All Accounts</button>
+        </div>
+      </div>
+
+      <!-- Console Panel -->
+      <div id="consolePanel" class="console-panel">
+        <div class="console-header">
+          <div class="sub-menu-text">
+            <img
+              src="/assets//menu-icons/console-head-icon.svg"
+              alt="Console Icon"
+              class="sub-menu-icon"
+            />
+            <span id="console-header-text">Console Logs</span>
+          </div>
+          <button class="close-button" id="closeConsole">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <div class="log-wrapper">
+          <div id="consoleLogs" class="console-logs"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
