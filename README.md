@@ -2,7 +2,11 @@
 
 A simulation and visualization platform for experimenting with consensus network protocols and modeling client/node interactions in distributed systems. Supports configurable client and node behavior (including malicious actors), blockchain structure modeling, and state visualization for real-time consensus tracking. Features a UI to explore account, node, and client dynamics under varied network configurations.
 
+<img width="1920" height="1280" alt="cnsim_concept_art" src="https://github.com/user-attachments/assets/a9defe23-74ee-4b0e-bdeb-f135e5aac263" />
+
+<!--
 ![cnsim_github](https://github.com/user-attachments/assets/0b315c89-bd58-48d5-9f06-d32ccf81843d)
+-->
 
 ## Running the Project
 
